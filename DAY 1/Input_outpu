@@ -1,0 +1,180 @@
+# Input and Output in Python 🐍
+
+## What is Input and Output?
+
+Input and Output allow users to interact with a program.
+
+- **Input** → Data entered by the user
+- **Output** → Data displayed by the program
+
+Example:
+
+```python
+name = input("Enter your name: ")
+
+print(name)
+```
+
+---
+
+## Output using `print()`
+
+The `print()` function is used to display information on the screen.
+
+Example:
+
+```python
+print("Hello World")
+```
+
+Output:
+
+```txt
+Hello World
+```
+
+---
+
+## Printing Multiple Values
+
+```python
+name = "Naveen"
+age = 22
+
+print(name, age)
+```
+
+Output:
+
+```txt
+Naveen 22
+```
+
+---
+
+## Printing Text with Variables
+
+```python
+name = "Naveen"
+
+print("Welcome", name)
+```
+
+Output:
+
+```txt
+Welcome Naveen
+```
+
+---
+
+## User Input using `input()`
+
+The `input()` function takes data from the user.
+
+```python
+name = input("Enter your name: ")
+
+print("Hello", name)
+```
+
+Example Output:
+
+```txt
+Enter your name: Naveen
+Hello Naveen
+```
+
+---
+
+## Important Note
+
+By default, `input()` accepts data as a **string**.
+
+Example:
+
+```python
+age = input("Enter age: ")
+
+print(type(age))
+```
+
+Output:
+
+```txt
+<class 'str'>
+```
+
+---
+
+## Converting Input Type
+
+Use `int()`, `float()`, etc. to convert input.
+
+### Integer Input
+
+```python
+age = int(input("Enter age: "))
+
+print(age)
+print(type(age))
+```
+
+Output:
+
+```txt
+22
+<class 'int'>
+```
+
+---
+
+### Float Input
+
+```python
+salary = float(input("Enter salary: "))
+
+print(salary)
+```
+
+---
+
+## Example Program
+
+```python
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+
+print("Name:", name)
+print("Age:", age)
+```
+
+Example Output:
+
+```txt
+Enter your name: Naveen
+Enter your age: 22
+
+Name: Naveen
+Age: 22
+```
+
+---
+
+## Practice Questions
+
+1. Take user name and print a welcome message
+2. Take age input and display it
+3. Take two numbers and print their sum
+4. Create a student details program
+
+---
+
+## What I Learned Today
+
+✅ print() function  
+✅ input() function  
+✅ User interaction  
+✅ Type conversion with int() and float()
+
+Day 1 completed 🚀
