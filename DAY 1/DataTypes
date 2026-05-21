@@ -1,0 +1,179 @@
+# Data Types in Python 🐍
+
+## What are Data Types?
+
+Data types define the type of value stored in a variable.
+
+Python automatically identifies the type of data assigned to a variable.
+
+Example:
+
+```python
+name = "Naveen"
+age = 22
+```
+
+- `"Naveen"` → String
+- `22` → Integer
+
+---
+
+## Why Data Types Matter?
+
+Data types help Python understand:
+
+- What kind of data is stored
+- What operations can be performed
+- How memory is managed
+
+---
+
+## Common Python Data Types
+
+| Data Type | Description | Example |
+|------------|-------------|----------|
+| int | Integer numbers | `10` |
+| float | Decimal numbers | `10.5` |
+| str | Text values | `"Hello"` |
+| bool | True or False | `True` |
+| list | Collection of items | `[1,2,3]` |
+| tuple | Ordered immutable collection | `(1,2,3)` |
+| set | Unordered unique values | `{1,2,3}` |
+| dict | Key-value pairs | `{"name":"John"}` |
+
+---
+
+## Integer (int)
+
+Stores whole numbers.
+
+```python
+age = 22
+
+print(age)
+print(type(age))
+```
+
+Output:
+
+```txt
+22
+<class 'int'>
+```
+
+---
+
+## Float
+
+Stores decimal values.
+
+```python
+price = 99.99
+
+print(price)
+print(type(price))
+```
+
+Output:
+
+```txt
+99.99
+<class 'float'>
+```
+
+---
+
+## String (str)
+
+Stores text data.
+
+```python
+name = "Naveen"
+
+print(name)
+print(type(name))
+```
+
+Output:
+
+```txt
+Naveen
+<class 'str'>
+```
+
+---
+
+## Boolean (bool)
+
+Stores only:
+
+- True
+- False
+
+```python
+is_student = True
+
+print(is_student)
+print(type(is_student))
+```
+
+Output:
+
+```txt
+True
+<class 'bool'>
+```
+
+---
+
+## Checking Data Type
+
+Use `type()`:
+
+```python
+x = 100
+
+print(type(x))
+```
+
+Output:
+
+```txt
+<class 'int'>
+```
+
+---
+
+## Multiple Data Types Example
+
+```python
+name = "Naveen"
+age = 22
+cgpa = 8.5
+placed = False
+
+print(type(name))
+print(type(age))
+print(type(cgpa))
+print(type(placed))
+```
+
+---
+
+## Practice Questions
+
+1. Create variables of int, float, string, and bool
+2. Print their values
+3. Use `type()` for each variable
+4. Create your own student details program
+
+---
+
+## What I Learned Today
+
+✅ Python data types  
+✅ int, float, string, bool  
+✅ type() function  
+✅ Storing different values
+
+Learning Python step by step 🚀
