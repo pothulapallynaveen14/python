@@ -1,0 +1,46 @@
+# Day 1 – Python Setup & Basics 🐍
+
+## 🎯 Goal
+Set up the Python development environment and understand basic Python concepts.
+
+---
+
+## Topics Covered
+
+### 1. Install Python
+- Download and install Python
+- Verify installation
+- Check Python version
+
+Command:
+```bash
+python --version
+```
+
+or
+
+```bash
+python3 --version
+```
+
+---
+
+### 2. Install VS Code
+
+Installed:
+- VS Code
+- Python Extension
+- Jupyter Extension
+
+Useful shortcuts:
+- Run code: Ctrl + Alt + N
+- Terminal: Ctrl + `
+
+---
+
+## What I Learned Today
+
+✅ Installed Python and VS Code  
+---
+
+Python set completed 🚀
