@@ -1,0 +1,170 @@
+# Variables in Python 🐍
+
+## What is a Variable?
+
+A variable is a container used to store data values in memory.  
+It helps us save and use information in a program.
+
+Example:
+
+```python
+name = "Naveen"
+age = 22
+```
+
+Here:
+
+- `name` stores a text value
+- `age` stores a number
+
+---
+
+## Variable Syntax
+
+```python
+variable_name = value
+```
+
+Example:
+
+```python
+city = "Hyderabad"
+marks = 95
+```
+
+---
+
+## Rules for Naming Variables
+
+✅ Can contain letters, numbers, and `_`
+
+```python
+student_name = "John"
+marks1 = 90
+```
+
+❌ Cannot start with a number
+
+```python
+1name = "John"
+```
+
+❌ Cannot use spaces
+
+```python
+student name = "John"
+```
+
+❌ Cannot use Python keywords
+
+```python
+class = 10
+for = 20
+```
+
+---
+
+## Examples
+
+### String Variable
+
+```python
+name = "Naveen"
+print(name)
+```
+
+Output:
+
+```txt
+Naveen
+```
+
+---
+
+### Integer Variable
+
+```python
+age = 22
+
+print(age)
+```
+
+Output:
+
+```txt
+22
+```
+
+---
+
+### Multiple Variables
+
+```python
+name = "Naveen"
+age = 22
+cgpa = 8.5
+
+print(name)
+print(age)
+print(cgpa)
+```
+
+Output:
+
+```txt
+Naveen
+22
+8.5
+```
+
+---
+
+## Assign Multiple Values
+
+```python
+x, y, z = 10, 20, 30
+
+print(x)
+print(y)
+print(z)
+```
+
+---
+
+## Reassigning Variables
+
+Variables can change values:
+
+```python
+marks = 80
+
+marks = 95
+
+print(marks)
+```
+
+Output:
+
+```txt
+95
+```
+
+---
+
+## Practice Questions
+
+1. Store your name and print it
+2. Store age and city
+3. Create three variables and print them
+4. Change a variable value and print again
+
+---
+
+## What I Learned
+
+✅ Variables store data  
+✅ Naming rules  
+✅ Multiple assignments  
+✅ Reassigning values
+
+Day 1 Progress 🚀
