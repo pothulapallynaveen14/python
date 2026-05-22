@@ -1,0 +1,210 @@
+# Type Conversion in Python 
+
+## What is Type Conversion?
+
+Type conversion is the process of changing one data type into another data type.
+
+Python allows us to convert values when needed.
+
+Example:
+
+```python
+age = "22"
+
+print(type(age))
+```
+
+Output:
+
+```txt
+<class 'str'>
+```
+
+Convert it:
+
+```python
+age = int(age)
+
+print(type(age))
+```
+
+Output:
+
+```txt
+<class 'int'>
+```
+
+---
+
+## Why Type Conversion is Important?
+
+Type conversion helps us:
+
+- Perform mathematical operations
+- Convert user input into usable data
+- Change data according to program requirements
+
+---
+
+## Common Type Conversion Functions
+
+| Function  | Converts To |
+|-----------|-------------|
+| int()     | Integer     |
+| float()   | Float       |
+| str()     | String      |
+| bool()    | Boolean     |
+| list()    | List        |
+| tuple()   | Tuple       |
+| set()     | Set         |
+
+---
+
+# Convert String to Integer
+
+```python
+num = "100"
+
+converted_num = int(num)
+
+print(converted_num)
+print(type(converted_num))
+```
+
+Output:
+
+```txt
+100
+<class 'int'>
+```
+
+---
+
+# Convert Integer to Float
+
+```python
+num = 10
+
+value = float(num)
+
+print(value)
+print(type(value))
+```
+
+Output:
+
+```txt
+10.0
+<class 'float'>
+```
+
+---
+
+# Convert Number to String
+
+```python
+age = 22
+
+text = str(age)
+
+print(text)
+print(type(text))
+```
+
+Output:
+
+```txt
+22
+<class 'str'>
+```
+
+---
+
+# Convert Values to Boolean
+
+Python rules:
+
+- `0` → False
+- Empty string `""` → False
+- Empty list `[]` → False
+- Everything else → True
+
+Example:
+
+```python
+print(bool(1))
+print(bool(0))
+print(bool(""))
+print(bool("Python"))
+```
+
+Output:
+
+```txt
+True
+False
+False
+True
+```
+
+---
+
+# User Input Example
+
+By default input() returns string.
+
+```python
+num1 = input("Enter first number: ")
+num2 = input("Enter second number: ")
+
+print(num1 + num2)
+```
+
+Input:
+
+```txt
+10
+20
+```
+
+Output:
+
+```txt
+1020
+```
+
+Correct way:
+
+```python
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+print(num1 + num2)
+```
+
+Output:
+
+```txt
+30
+```
+
+---
+
+## Practice Questions
+
+1. Convert string `"50"` into integer
+2. Convert integer into float
+3. Convert number into string
+4. Take two numbers from user and add them
+5. Test bool() with different values
+
+---
+
+## What I Learned Today
+
+✅ Type conversion  
+✅ int()  
+✅ float()  
+✅ str()  
+✅ bool()  
+✅ User input conversion
