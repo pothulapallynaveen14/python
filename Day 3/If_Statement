@@ -1,0 +1,144 @@
+# If Statement in Python 🐍
+
+## What is an If Statement?
+
+An `if` statement is used to execute a block of code only when a condition is **True**.
+
+It helps programs make decisions.
+
+---
+
+## Syntax
+
+```python
+if condition:
+    statement
+```
+
+If the condition is True → code runs  
+If the condition is False → code is skipped
+
+---
+
+## Flow of Execution
+
+1. Python checks the condition
+2. If condition is True → execute code
+3. If condition is False → skip code
+
+---
+
+## Example 1
+
+```python
+age = 20
+
+if age >= 18:
+    print("Eligible to vote")
+```
+
+Output:
+
+```txt
+Eligible to vote
+```
+
+Explanation:
+
+- `age >= 18` is True
+- So Python executes `print()`
+
+---
+
+## Example 2
+
+```python
+number = 10
+
+if number > 0:
+    print("Positive Number")
+```
+
+Output:
+
+```txt
+Positive Number
+```
+
+---
+
+## Example 3
+
+```python
+marks = 95
+
+if marks >= 35:
+    print("Pass")
+```
+
+Output:
+
+```txt
+Pass
+```
+
+---
+
+## Important Note: Indentation
+
+Python uses indentation (spaces) to define code blocks.
+
+Correct:
+
+```python
+if True:
+    print("Hello")
+```
+
+Wrong:
+
+```python
+if True:
+print("Hello")
+```
+
+This gives an error.
+
+---
+
+## Multiple Statements
+
+```python
+age = 22
+
+if age >= 18:
+    print("Eligible")
+    print("Can Vote")
+    print("Adult")
+```
+
+Output:
+
+```txt
+Eligible
+Can Vote
+Adult
+```
+
+---
+
+## Practice Questions
+
+1. Check whether a number is positive
+2. Check whether age is above 18
+3. Check whether marks are above passing marks
+4. Check whether a number is divisible by 5
+
+---
+
+## What I Learned Today
+
+✅ if statement  
+✅ Conditions  
+✅ Syntax  
+✅ Indentation
