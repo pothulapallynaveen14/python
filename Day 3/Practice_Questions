@@ -1,0 +1,211 @@
+# Practice Questions 📝
+
+Practice these questions after learning **if**, **if else**, **elif**, and **nested if**.
+
+---
+
+## Basic Level
+
+### 1. Check Positive Number
+
+Take a number from the user and check whether it is positive.
+
+Example:
+
+Input:
+
+```txt
+10
+```
+
+Output:
+
+```txt
+Positive Number
+```
+
+---
+
+### 2. Even or Odd
+
+Take a number and determine whether it is even or odd.
+
+Example:
+
+Input:
+
+```txt
+7
+```
+
+Output:
+
+```txt
+Odd Number
+```
+
+---
+
+### 3. Voting Eligibility
+
+Take age as input and check if the person is eligible to vote.
+
+Condition:
+
+- Age ≥ 18 → Eligible
+- Otherwise → Not eligible
+
+---
+
+### 4. Pass or Fail
+
+Take marks as input.
+
+Condition:
+
+- Marks ≥ 35 → Pass
+- Otherwise → Fail
+
+---
+
+## Intermediate Level
+
+### 5. Largest of Two Numbers
+
+Take two numbers and print the greater number.
+
+Example:
+
+```txt
+Input:
+10
+20
+
+Output:
+20 is greater
+```
+
+---
+
+### 6. Largest of Three Numbers
+
+Use `if elif else`.
+
+Example:
+
+Input:
+
+```txt
+10
+50
+30
+```
+
+Output:
+
+```txt
+50 is greatest
+```
+
+---
+
+### 7. Grade Calculator
+
+Condition:
+
+- 90+ → Grade A
+- 75–89 → Grade B
+- 50–74 → Grade C
+- Below 50 → Fail
+
+---
+
+### 8. Positive, Negative or Zero
+
+Take a number and identify:
+
+- Positive
+- Negative
+- Zero
+
+---
+
+## Advanced Level
+
+### 9. Login System
+
+Check:
+
+```txt
+Username: admin
+Password: 1234
+```
+
+If both are correct:
+
+```txt
+Login Successful
+```
+
+Else:
+
+```txt
+Invalid Credentials
+```
+
+---
+
+### 10. Exam Eligibility
+
+Conditions:
+
+- Marks ≥ 35
+- Attendance ≥ 75
+
+Only if both conditions are satisfied:
+
+```txt
+Eligible for Certificate
+```
+
+---
+
+### 11. Traffic Signal Program
+
+Conditions:
+
+- Red → Stop
+- Yellow → Ready
+- Green → Go
+
+---
+
+### 12. Simple Menu Program
+
+Display:
+
+```txt
+1. Add
+2. Subtract
+3. Multiply
+```
+
+Take user choice and print selected operation.
+
+---
+
+## Challenge Questions 🚀
+
+1. Find largest among three using nested if
+2. Build a mini ATM menu
+3. Create a simple calculator using conditions
+4. Create a username/password login system
+5. Student result management system
+
+---
+
+## Goal
+
+✅ Understand conditions  
+✅ Improve problem solving  
+✅ Learn decision making logic
