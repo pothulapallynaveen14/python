@@ -1,0 +1,166 @@
+# Elif Statement in Python 🐍
+
+## What is an Elif Statement?
+
+`elif` stands for **else if**.
+
+It is used when we need to check **multiple conditions**.
+
+Instead of writing many `if` statements, we can use `elif` to make the code cleaner and easier to understand.
+
+---
+
+## Why use elif?
+
+Suppose a program has multiple choices:
+
+- Grade A
+- Grade B
+- Grade C
+- Fail
+
+Using only `if else` becomes difficult.
+
+`elif` helps handle multiple conditions.
+
+---
+
+## Syntax
+
+```python
+if condition1:
+    statement
+elif condition2:
+    statement
+elif condition3:
+    statement
+else:
+    statement
+```
+
+---
+
+## Flow of Execution
+
+1. Python checks the first condition
+2. If True → execute block and stop
+3. Otherwise check next `elif`
+4. Continue until a condition becomes True
+5. If no condition is True → execute `else`
+
+---
+
+## Example 1: Grade System
+
+```python
+marks = 85
+
+if marks >= 90:
+    print("Grade A")
+elif marks >= 75:
+    print("Grade B")
+elif marks >= 50:
+    print("Grade C")
+else:
+    print("Fail")
+```
+
+Output:
+
+```txt
+Grade B
+```
+
+Explanation:
+
+- `marks >= 90` → False
+- `marks >= 75` → True
+- Python stops checking further conditions
+
+---
+
+## Example 2: Traffic Signal
+
+```python
+signal = "yellow"
+
+if signal == "red":
+    print("Stop")
+elif signal == "yellow":
+    print("Ready")
+elif signal == "green":
+    print("Go")
+else:
+    print("Invalid Signal")
+```
+
+Output:
+
+```txt
+Ready
+```
+
+---
+
+## Example 3: Largest of Two Numbers
+
+```python
+a = 15
+b = 25
+
+if a > b:
+    print("A is greater")
+elif b > a:
+    print("B is greater")
+else:
+    print("Both are equal")
+```
+
+Output:
+
+```txt
+B is greater
+```
+
+---
+
+## Important Note
+
+Only the **first True condition** executes.
+
+```python
+x = 100
+
+if x > 50:
+    print("A")
+
+elif x > 70:
+    print("B")
+```
+
+Output:
+
+```txt
+A
+```
+
+Python stops after the first True condition.
+
+---
+
+## Practice Questions
+
+1. Create a grade calculator
+2. Find largest among two numbers
+3. Create a traffic signal program
+4. Find positive, negative, or zero
+5. Create a simple menu program
+
+---
+
+## What I Learned Today
+
+✅ elif statement  
+✅ Multiple conditions  
+✅ Decision making  
+✅ Execution flow
