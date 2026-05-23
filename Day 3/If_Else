@@ -1,0 +1,156 @@
+# If Else Statement in Python 🐍
+
+## What is an If Else Statement?
+
+The `if else` statement is used when a program has **two choices**.
+
+- If the condition is **True** → execute `if` block
+- Otherwise → execute `else` block
+
+It helps the program make decisions.
+
+---
+
+## Syntax
+
+```python
+if condition:
+    statement
+else:
+    statement
+```
+
+---
+
+## Flow of Execution
+
+1. Python checks the condition
+2. If condition is True → run `if` block
+3. Otherwise → run `else` block
+
+---
+
+## Example 1: Even or Odd
+
+```python
+num = 7
+
+if num % 2 == 0:
+    print("Even Number")
+else:
+    print("Odd Number")
+```
+
+Output:
+
+```txt
+Odd Number
+```
+
+Explanation:
+
+- `7 % 2 == 0` → False
+- So `else` block executes
+
+---
+
+## Example 2: Voting Eligibility
+
+```python
+age = 16
+
+if age >= 18:
+    print("Eligible to vote")
+else:
+    print("Not eligible")
+```
+
+Output:
+
+```txt
+Not eligible
+```
+
+---
+
+## Example 3: Positive or Negative
+
+```python
+number = -5
+
+if number > 0:
+    print("Positive Number")
+else:
+    print("Negative Number")
+```
+
+Output:
+
+```txt
+Negative Number
+```
+
+---
+
+## Multiple Statements Inside if else
+
+```python
+marks = 80
+
+if marks >= 35:
+    print("Pass")
+    print("Congratulations")
+else:
+    print("Fail")
+    print("Try Again")
+```
+
+Output:
+
+```txt
+Pass
+Congratulations
+```
+
+---
+
+## Important Note: Indentation
+
+Correct:
+
+```python
+if True:
+    print("Hello")
+else:
+    print("Python")
+```
+
+Wrong:
+
+```python
+if True:
+print("Hello")
+else:
+print("Python")
+```
+
+Indentation errors will occur.
+
+---
+
+## Practice Questions
+
+1. Check even or odd
+2. Check voting eligibility
+3. Check positive or negative number
+4. Find greater among two numbers
+5. Check pass or fail
+
+---
+
+## What I Learned Today
+
+✅ if else statement  
+✅ Decision making  
+✅ Conditions  
+✅ Indentation
