@@ -1,0 +1,167 @@
+# Nested If Statement in Python 🐍
+
+## What is a Nested If Statement?
+
+A Nested `if` means an `if` statement placed inside another `if` statement.
+
+It is used when a condition depends on another condition.
+
+---
+
+## Why use Nested If?
+
+Sometimes a program needs to check multiple conditions step by step.
+
+Example:
+
+- Check if a person is eligible to vote
+- Then check if the person can contest elections
+
+The second condition is checked only if the first one is True.
+
+---
+
+## Syntax
+
+```python
+if condition1:
+    if condition2:
+        statement
+```
+
+---
+
+## Flow of Execution
+
+1. Python checks the first condition
+2. If True → enter first `if` block
+3. Then check second condition
+4. If second condition is True → execute inner block
+5. Otherwise skip it
+
+---
+
+## Example 1: Voting Eligibility
+
+```python
+age = 22
+
+if age >= 18:
+    if age >= 21:
+        print("Eligible for voting and higher responsibilities")
+```
+
+Output:
+
+```txt
+Eligible for voting and higher responsibilities
+```
+
+Explanation:
+
+- First condition: `age >= 18` → True
+- Second condition: `age >= 21` → True
+- Both conditions satisfied
+
+---
+
+## Example 2: Login System
+
+```python
+username = "admin"
+password = "1234"
+
+if username == "admin":
+    if password == "1234":
+        print("Login Successful")
+```
+
+Output:
+
+```txt
+Login Successful
+```
+
+---
+
+## Example 3: Student Result
+
+```python
+marks = 75
+attendance = 90
+
+if marks >= 35:
+    if attendance >= 75:
+        print("Eligible for Exam Certificate")
+```
+
+Output:
+
+```txt
+Eligible for Exam Certificate
+```
+
+---
+
+## Nested if with else
+
+```python
+age = 16
+
+if age >= 18:
+    if age >= 21:
+        print("Eligible")
+    else:
+        print("Adult but not eligible")
+else:
+    print("Minor")
+```
+
+Output:
+
+```txt
+Minor
+```
+
+---
+
+## Important Note: Indentation
+
+Nested `if` requires proper indentation.
+
+Correct:
+
+```python
+if True:
+    if True:
+        print("Hello")
+```
+
+Wrong:
+
+```python
+if True:
+if True:
+print("Hello")
+```
+
+This causes an error.
+
+---
+
+## Practice Questions
+
+1. Create a login system
+2. Check exam eligibility using marks and attendance
+3. Check voting eligibility and age category
+4. Check username and password
+5. Find largest among three numbers using nested if
+
+---
+
+## What I Learned Today
+
+✅ Nested if  
+✅ Multiple condition checking  
+✅ Indentation  
+✅ Decision making
